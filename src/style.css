@@ -66,3 +66,7 @@ h1 {
 .Weather canvas {
   margin: 10px 0;
 }
+
+.WeatherInfo {
+  margin-top: 20px;
+}
