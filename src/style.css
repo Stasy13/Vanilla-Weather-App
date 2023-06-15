@@ -9,6 +9,30 @@ h1 {
   padding-bottom: 50px;
 }
 
+.WeatherForecast .forecast-day {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: rgba(39, 33, 66, 0.4);
+}
+.WeatherForecast .forecast-temperature {
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #f65282;
+  font-weight: bold;
+}
+
+.WeatherForecast .forecast-min-temp {
+  margin-left: 10px;
+  opacity: 0.6;
+}
+
+.Weather .WeatherForecast canvas {
+  display: block;
+  margin: 20px auto;
+}
+
 .Weather ul {
   margin: 0;
   padding: 0;
